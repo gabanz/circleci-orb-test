@@ -1,1 +1,1 @@
-Flan Scan!
+Flan Scan
