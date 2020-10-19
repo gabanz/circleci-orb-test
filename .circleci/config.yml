@@ -5,6 +5,3 @@ workflows:
   use-flan-orb:
     jobs:
       - flanscan/build
-      - flanscan/scan
-      - flanscan/report
-      - flanscan/publish
