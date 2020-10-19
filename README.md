@@ -1,1 +1,1 @@
-Flan Scan test
+Flan Scan
