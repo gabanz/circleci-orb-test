@@ -3,8 +3,9 @@ orbs:
   flanscan: gabanz/flanscan@dev:alpha
 jobs:
   test-orb:
-    executor:
-      name: alpine
+    build:
+      docker:
+        - image: cimg/base:2020.01
     steps:
       - checkout
       - flanscan/build
