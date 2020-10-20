@@ -4,4 +4,5 @@ orbs:
 workflows:
   use-flan-orb:
     jobs:
+      - flanscan/build
       - flanscan/scan
