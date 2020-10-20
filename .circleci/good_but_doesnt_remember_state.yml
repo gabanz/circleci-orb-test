@@ -1,0 +1,10 @@
+version: "2.1"
+orbs:
+  flanscan: gabanz/flanscan@dev:alpha
+workflows:
+  test:
+    jobs:
+      - flanscan/build
+      - flanscan/scan:
+          requires:
+            - flanscan/build

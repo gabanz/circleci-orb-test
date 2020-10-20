@@ -4,7 +4,4 @@ orbs:
 workflows:
   test:
     jobs:
-      - flanscan/build
-      - flanscan/scan:
-          requires:
-            - flanscan/build
+      - flanscan/scan
