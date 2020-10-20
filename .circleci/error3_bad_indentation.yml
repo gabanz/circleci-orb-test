@@ -5,6 +5,6 @@ workflows:
   test:
     jobs:
       - flanscan/build
-      - flanscan/scan:
+      - flanscan/scan
           requires:
             - flanscan/build
