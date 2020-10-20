@@ -1,12 +1,8 @@
 version: "2.1"
 orbs:
   flanscan: gabanz/flanscan@dev:alpha
+executors:
+  flanscan: flanscan/default
 jobs:
-  test-orb:
-    build:
-      docker:
-        - image: cimg/base:2020.01
-    steps:
-      - checkout
-      - flanscan/build
-      - flanscan/scan
+  build: flanscan/build
+  scan: flanscan/scan
