@@ -1,0 +1,11 @@
+version: "2.1"
+orbs:
+  flanscan: gabanz/flanscan@dev:alpha
+workflows:
+  test:
+    jobs:
+      executor:
+        name: flanscan/default
+      steps:
+        - flanscan/build
+        - flanscan/scan

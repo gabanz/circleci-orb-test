@@ -4,8 +4,7 @@ orbs:
 workflows:
   test:
     jobs:
-      executor:
-        name: flanscan/default
-      steps:
-        - flanscan/build
-        - flanscan/scan
+      - flanscan/build
+      - flanscan/scan
+          requires:
+            - flanscan/build
