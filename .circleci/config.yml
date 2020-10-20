@@ -1,8 +1,8 @@
 version: "2.1"
 orbs:
   flanscan: gabanz/flanscan@dev:alpha
-executors:
-  flanscan: flanscan/default
-jobs:
-  build: flanscan/build
-  scan: flanscan/scan
+workflows:
+  test:
+    jobs:
+      - flanscan/build
+      - flanscan/scan
