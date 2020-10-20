@@ -3,6 +3,8 @@ orbs:
   flanscan: gabanz/flanscan@dev:alpha
 jobs:
   test-orb:
+    docker:
+      - image: alpine
     steps:
       - flanscan/build
       - flanscan/scan
