@@ -2,8 +2,9 @@ version: "2.1"
 orbs:
   flanscan: gabanz/flanscan@dev:alpha
 workflows:
-  use-flan-orb:
+  build:
     jobs:
       - flanscan/build
+  scan:
     jobs:
       - flanscan/scan
