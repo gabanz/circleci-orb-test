@@ -13,7 +13,7 @@ workflows:
   test:
     jobs:
       - checkout
-      - flanscan/aws:
+#      - flanscan/aws:
 #          format: html
 #          ip: 9.9.9.9
 #          bucket: flanscan20201021
