@@ -4,5 +4,4 @@ orbs:
 workflows:
   test:
     jobs:
-      - checkout
       - flanscan/scan
