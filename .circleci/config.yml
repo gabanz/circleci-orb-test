@@ -4,4 +4,5 @@ orbs:
 workflows:
   test:
     jobs:
-      - flanscan/start
+      - flanscan/start:
+          format: json
