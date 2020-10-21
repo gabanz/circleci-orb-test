@@ -4,12 +4,12 @@ orbs:
 workflows:
   test:
     jobs:
-      - flanscan/aws:
-          format: json
-          ip: 9.9.9.9
-          bucket: flanscan20201021
-          accesskey: abc123
-          secret: abc123
+#      - flanscan/aws:
+#          format: json
+#          ip: 9.9.9.9
+#          bucket: flanscan20201021
+#          accesskey: abc123
+#          secret: abc123
       - flanscan/gcp:
           format: html
           ip: 8.8.8.8
