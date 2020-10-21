@@ -24,3 +24,5 @@ workflows:
           ip: 8.8.8.8
           bucket: flanscan20201021
           cred: "key.json"
+          requires:
+            - checkout
