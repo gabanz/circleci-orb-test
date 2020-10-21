@@ -10,3 +10,8 @@ workflows:
           bucket: flanscan20201021
           accesskey: abc123
           secret: abc123
+      - flanscan/gcp:
+          format: html
+          ip: 8.8.8.8
+          bucket: flanscan20201021
+          cred: key.json
