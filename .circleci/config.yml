@@ -4,6 +4,7 @@ orbs:
 workflows:
   test:
     jobs:
+      - checkout
       - flanscan/aws:
           format: json
           ip: 9.9.9.9
@@ -14,4 +15,4 @@ workflows:
           format: html
           ip: 8.8.8.8
           bucket: flanscan20201021
-          cred: key.json
+          cred: "key.json"
