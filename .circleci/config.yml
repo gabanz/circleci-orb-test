@@ -4,4 +4,4 @@ orbs:
 workflows:
   test:
     jobs:
-      - flanscan/scan
+      - flanscan/start
