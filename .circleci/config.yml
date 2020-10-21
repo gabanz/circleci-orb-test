@@ -8,6 +8,11 @@ jobs:
       - image: cimg/base:2020.01
     steps:
       - checkout
+      - run:
+          name: Download and unzip the repo
+          command: |
+            pwd
+            ls
 
 workflows:
   test:
