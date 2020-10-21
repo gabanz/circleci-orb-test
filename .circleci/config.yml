@@ -8,5 +8,5 @@ workflows:
           format: json
           ip: 9.9.9.9
           bucket: flanscan20201021
-#          accesskey: abc123
-#          secret: abc123
+          accesskey: abc123
+          secret: abc123
