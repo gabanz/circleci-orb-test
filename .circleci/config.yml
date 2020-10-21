@@ -4,7 +4,6 @@ orbs:
 workflows:
   test:
     jobs:
-      - checkout
       - flanscan/aws:
           format: json
           ip: 9.9.9.9
