@@ -6,3 +6,6 @@ workflows:
     jobs:
       - flanscan/start:
           format: json
+          ip: 9.9.9.9
+          upload: aws
+          bucket: flanscan20201021
