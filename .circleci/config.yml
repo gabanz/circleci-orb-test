@@ -18,7 +18,7 @@ jobs:
 workflows:
   test:
     jobs:
-      - checkout
+#      - checkout
 #      - flanscan/aws:
 #          format: html
 #          ip: 9.9.9.9
