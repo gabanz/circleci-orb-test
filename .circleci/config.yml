@@ -4,8 +4,9 @@ orbs:
 workflows:
   test:
     jobs:
-      - flanscan/start:
+      - flanscan/aws:
           format: json
           ip: 9.9.9.9
-          upload: aws
           bucket: flanscan20201021
+          aws-access-key: abc123
+          aws-secret: abc123
